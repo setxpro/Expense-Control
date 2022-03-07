@@ -85,7 +85,7 @@ const App = () => {
      
       </C.Body>
       <C.Footer>
-          <a href="https://github.com/setxpro">Patrick Anjos</a>
+          <a href="mailto:programadorseth@gmail.com" target="">Patrick Anjos</a>
       </C.Footer>
     </C.Container>
   );
