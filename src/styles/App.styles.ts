@@ -24,3 +24,21 @@ export const Body = styled.body`
     margin-bottom: 50px;
 `;
 
+export const Footer = styled.footer`
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    
+
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+
+    a {
+        color: #333;
+        margin-left: 20px;
+    }
+`;
+
+

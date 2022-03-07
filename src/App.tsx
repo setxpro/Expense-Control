@@ -13,6 +13,7 @@ import { categories } from "./data/Categories";
 //Content
 import { TableArea } from "./components/TableArea";
 import { InfoArea } from "./components/InfoArea";
+import { InputArea } from "./components/InputArea";
 
 
 const App = () => {
@@ -53,6 +54,13 @@ const App = () => {
     setCurrentMonth(newMonth);
   }
 
+  // Add
+  const handleAddItem = (item: Item) => {
+    let newList = [...list];
+    newList.push(item);
+    setList(newList);
+  }
+
   return (
     <C.Container>
       <GlobalStyles/>
@@ -70,11 +78,15 @@ const App = () => {
         />
 
         {/* Área de Inserção de dados */}
+        <InputArea onAdd={handleAddItem}/>
         
         {/* Tabela de Items */}
         <TableArea list={filteredList}/>
      
       </C.Body>
+      <C.Footer>
+          <a href="https://github.com/setxpro">Patrick Anjos</a>
+      </C.Footer>
     </C.Container>
   );
 }

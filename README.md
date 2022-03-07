@@ -19,5 +19,8 @@
 [x] -> Summary value<br>
 
 
-**06/03/22**<br>
-[] -> Form insert data<br>
+**07/03/22**<br>
+[x] -> Form insert data<br>
+
+**OBS.:**
+[] -> Guardar os dados no local Storage

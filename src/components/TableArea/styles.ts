@@ -9,6 +9,7 @@ export const Table = styled.table`
 
     background-color: #FFF;
     box-shadow: 0px 0px 5px #CCC;
+
 `;
 
 export const TableHeadColum = styled.th<{ width?: number }>`
@@ -17,5 +18,4 @@ export const TableHeadColum = styled.th<{ width?: number }>`
 
     padding: 10px 0px;
     text-align: left;
-
 `;
