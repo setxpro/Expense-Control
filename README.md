@@ -23,4 +23,4 @@
 [x] -> Form insert data<br>
 
 **OBS.:**
-[] -> Guardar os dados no local Storage
+[] -> Guardar os dados na Storage
